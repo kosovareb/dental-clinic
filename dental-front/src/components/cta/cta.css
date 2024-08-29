@@ -1,0 +1,99 @@
+.clinic_banner {
+    background: #516eff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clinic_banner .container {
+    max-width: 1200px; 
+    padding: 0 15px;
+}
+
+.clinic_banner .clinic_title h2 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.clinic_banner .clinic_sub_title p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    height: 150px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+    .clinic_banner .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .clinic_banner .col-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .clinic_banner .clinic_title h2 {
+        font-size: 30px;
+    }
+
+    .clinic_banner .clinic_sub_title p {
+        font-size: 16px;
+    }
+
+    .clinic_banner .row .col-4 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        margin: 10px;
+        height: auto; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .clinic_banner .clinic_title h2 {
+        font-size: 24px;
+    }
+
+    .clinic_banner .clinic_sub_title p {
+        font-size: 14px;
+    }
+
+    .clinic_banner .row .col-4 {
+        width: 100%;
+    }
+
+    .card {
+        margin: 5px;
+    }
+}
