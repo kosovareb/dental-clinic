@@ -1,0 +1,62 @@
+.history-section .about-image{
+    position: relative;
+  }
+  
+  .history-section .about-image::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: -5%;
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    /* max-height: 300px; */
+    background-color: #5864f4; 
+    z-index: -1;
+    border-radius: 10px; 
+  }
+  
+  .history-section img {
+    border-radius: 10px; 
+  }
+  
+  .history-section .text-container {
+    background-color: #f8f9fa;
+    padding: 55px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .history-section h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .history-section p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .service_text_main h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    display: inline-block; /* Vendos vijen inline me "More Special" */
+  }
+  .service_text_main span {
+   font-size: 3.5rem;
+   font-weight: 700;
+   /* text-align: right; */
+  }
+  .service_text {
+    text-transform: uppercase;
+  }
+  
+  .service_text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .service_text span {
+    color: #ffd700;
+  }

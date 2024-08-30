@@ -1,0 +1,71 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .container h1 {
+    margin-bottom: 10px;
+  }
+  
+  .container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .container th,
+  .container td {
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+  
+  .container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .container .add-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .container .add-inputs input,
+  .container .add-inputs textarea {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 48px;
+    width: 185px;
+    border: 1px solid #5864f4;
+    border-radius: 6px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .container .add-inputs button {
+    background-color: #5864f4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin: 0px 10px 0px 0px;
+    padding: 5px 10px;
+  }
+  
+  .container h2 {
+    margin: 20px;
+  }
+  
+  .toggleButton{
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 10px; 
+  }
+  

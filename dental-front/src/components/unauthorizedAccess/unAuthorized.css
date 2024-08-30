@@ -1,0 +1,28 @@
+.unauthorized-access-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .unauthorized-access {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .unauthorized-access h2 {
+    color: #E90064;
+    margin-bottom: 10px;
+  }
+  
+  .unauthorized-access p {
+    margin-bottom: 10px;
+  }
+  
+  .unauthorized-access p:last-child {
+    font-style: italic;
+  }
+  

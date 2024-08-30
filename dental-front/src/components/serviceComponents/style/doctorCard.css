@@ -1,0 +1,16 @@
+.img-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .doctor-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Siguron që imazhi të përshtatet brenda kontejnerit */
+  }
+  

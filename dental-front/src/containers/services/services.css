@@ -1,0 +1,76 @@
+.service-card {
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 350px; /* Fixed height */
+  width: 300px; /* Fixed width */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  margin: 20px; /* Optional: add some space between cards */
+}
+
+.service-icon {
+  width: 180px; /* Fixed width */
+  height: 180px; /* Fixed height */
+  color: #333;
+  margin-bottom: 20px; /* Add space below the icon */
+}
+
+.service-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px; /* Add space below the title */
+}
+
+.service-card .card-text {
+  font-size: 1rem;
+  color: #666;
+  text-align: center; /* Center text alignment */
+}
+
+.service_text_main h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  display: inline-block;
+}
+
+.service_text {
+  text-transform: uppercase;
+}
+
+.service_text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-left: 5.5rem;
+}
+
+.service_text span {
+  color: #ffd700;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .service-card {
+    width: 100%; /* Adjust width for smaller screens */
+    max-width: none; /* Remove max-width */
+    height: auto; /* Adjust height for smaller screens */
+  }
+
+  .service-icon {
+    width: 60px; /* Adjust icon size on smaller screens */
+    height: 60px; /* Adjust icon size on smaller screens */
+  }
+
+  .service-card .card-title {
+    font-size: 1rem;
+  }
+
+  .service-card .card-text {
+    font-size: 0.875rem;
+  }
+}

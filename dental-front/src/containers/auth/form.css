@@ -1,0 +1,121 @@
+.register-content {
+  background: -webkit-linear-gradient(
+    right,
+    #003366,
+    #004080,
+    #0059b3,
+    #0073e6
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: -webkit-linear-gradient(
+    right,
+    #003366,
+    #004080,
+    #0059b3,
+    #0073e6
+  );
+  height: 100vh;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.login-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background: none;
+  border: 1px solid #004080;
+  color: #004080;
+  font-size: 16px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 30px 0 0 30px; /* Rounded left corners for Login */
+  outline: none;
+}
+
+.tabs button:last-child {
+  border-radius: 0 30px 30px 0; /* Rounded right corners for Signup */
+}
+
+.tabs button.active {
+  background: -webkit-linear-gradient(
+    right,
+    #003366,
+    #004080,
+    #0059b3,
+    #0073e6
+  );
+  color: white;
+}
+
+.tabs button:hover {
+  background: #004080;
+  color: white;
+}
+
+.form-input {
+  width: calc(100% - 40px);
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.forgot-password {
+  display: block;
+  margin: 10px 0;
+  color: #4e54c8;
+  text-decoration: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background: -webkit-linear-gradient(
+    right,
+    #003366,
+    #004080,
+    #0059b3,
+    #0073e6
+  );
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-text {
+  margin-top: 20px;
+}
+
+.signup-text a {
+  color: #4e54c8;
+  text-decoration: none;
+}
